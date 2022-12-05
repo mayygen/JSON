@@ -1,0 +1,80 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: walkway;
+  src: url(fonts/walkway.ttf);
+}
+
+h1{
+  padding: 1vmax;
+  backdrop-filter: blur(5px);
+  font-size: 5vmin;
+}
+
+h2{
+  color: blue;
+  font-size: 2vmin;
+  background-color: white;
+  padding: 1vmin;
+  font-size: 3vmax;
+}
+
+h3{
+  font-size: 2vmax;
+  background-color: white;
+  padding: 1vmin;
+  font-weight: bolder;
+}
+
+h4{
+  color: grey;
+  font-style: italic;
+  font-size: 2vmax;
+  background-color: white;
+  padding: 1vmin;
+}
+
+.mainContatiner{
+  background-image: url(photos/bg.jpeg); /* The image used */
+  background-position: center;; /* Center the image */
+  background-size: contain;
+  font-family: walkway;
+}
+
+.titleSection{
+  display: flex;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.rankingList{
+  display: flex;
+  justify-content: center;
+  font-family: walkway;
+}
+
+.contentItem{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1vmax;
+  backdrop-filter: blur(20px);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.62);
+  border: 1vmin solid #eee;
+
+}
+
+.albumImage{
+  width: 25vmax;
+  padding: 1vmax;
+  border-style: dotted;
+  border-color: white;
+  background-color: rgb(250, 0, 50, 0.7);
+  object-fit: cover;
+}
